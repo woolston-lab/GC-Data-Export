@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Fileset IdentifierAlgorithm="" Identifier="" xmlns="urn:schemas-agilent-com:Fileset">
+  <Files>
+    <File Path="20210902 Ar-He.amx" IdentifierAlgorithm="MD5" Identifier="73a46b408c775894590882f64d17575b">
+      <Property Name="appVersion" Value="ACQ-2022-0409-1649-14431" />
+    </File>
+    <File Path="20210902_Ar-He2.pmx" IdentifierAlgorithm="MD5" Identifier="6a0a90d54dd74a315ef94d3807b642d3">
+      <Property Name="appVersion" Value="2022-0410-1141-39221" />
+    </File>
+    <File Path="WL_MicroGC-2022-04-09 12-49-13-04-00.sqx" IdentifierAlgorithm="MD5" Identifier="19a8105ce6823731f5d29626ef3203e3">
+      <Property Name="appVersion" Value="ACQ-2022-0409-1649-14431" />
+    </File>
+    <File Path="WL_MicroGC-2022-04-10 07-38-41-04-00-01-r386.rx" IdentifierAlgorithm="MD5" Identifier="01cd2d45f1b547f134d9e99e951a9036">
+      <Property Name="appVersion" Value="ACQ-2022-0409-1649-14431" />
+    </File>
+    <File Path="WL_MicroGC-2022-04-10 07-38-41-04-00-01-r386.acaml" IdentifierAlgorithm="MD5" Identifier="5b8efc4d655b8d874ad5f1871af05d7c">
+      <Property Name="appVersion" Value="ACQ-2022-0409-1649-14431" />
+    </File>
+    <File Path="WL_MicroGC-2022-04-10 07-38-41-04-00-01-r386.dx" IdentifierAlgorithm="MD5" Identifier="a27ed6c6fbce1f007c69189baffd0bb5">
+      <Property Name="appVersion" Value="ACQ-2022-0409-1649-14431" />
+    </File>
+    <File Path="WL_MicroGC-2022-04-10 07-38-41-04-00-01-r386_1.pdf" IdentifierAlgorithm="MD5" Identifier="91450be4314e6b486989e7b25476cbc4">
+      <Property Name="appVersion" Value="2022-0410-1141-39790" />
+    </File>
+    <File Path="WL_MicroGC-2022-04-10 07-38-41-04-00-01-r386_1.xlsx" IdentifierAlgorithm="MD5" Identifier="db3883a82fb3dd097cf4376ed0cfb479">
+      <Property Name="appVersion" Value="2022-0410-1141-40313" />
+    </File>
+    <File Path="WL_MicroGC-2022-04-10 07-38-41-04-00-01-r386_1.csv" IdentifierAlgorithm="MD5" Identifier="1af9768aef76502a8074ad2474529f1e">
+      <Property Name="appVersion" Value="2022-0410-1141-40466" />
+    </File>
+    <File Path="Short_Estd_Letter.rdl" IdentifierAlgorithm="MD5" Identifier="a5cd7473815cece101750e77c9f2cfef">
+      <Property Name="appVersion" Value="2022-0410-1141-40519" />
+    </File>
+  </Files>
+</Fileset>

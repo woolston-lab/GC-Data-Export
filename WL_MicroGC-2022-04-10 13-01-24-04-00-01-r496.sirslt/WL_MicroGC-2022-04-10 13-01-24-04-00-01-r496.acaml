@@ -1,0 +1,385 @@
+<?xml version="1.0"?>
+<ACAML xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversion="2.1.30.999" xmlns="urn:schemas-agilent-com:acaml21">
+  <Checksum Algorithm="MD5">
+    <Value>AN8L2nSQiIZ6IhoxkdiWYQ==</Value>
+  </Checksum>
+  <MigrationHistory>
+    <MigrationStep>
+      <FromNamespace>urn:schemas-agilent-com:acaml21</FromNamespace>
+      <ToNamespace>urn:schemas-agilent-com:acaml21v2.1.30.999</ToNamespace>
+      <Date>2022-04-10T13:04:22.3028043-04:00</Date>
+      <Application>Agilent.Acaml.Core, Assembly Version: 1.0.0.0, File Version: 2.1.41.2</Application>
+    </MigrationStep>
+  </MigrationHistory>
+  <Doc>
+    <DocID>5ff81ca7-9f60-47d5-8273-8113b50fdf4f</DocID>
+    <DocInfo>
+      <Description>WL_MicroGC-2022-04-10 13-01-24-04-00-01-r496</Description>
+      <CreatedByUser>SYSTEM</CreatedByUser>
+      <CreatedByApplication>
+        <AgilentApp>
+          <Name>IntelligentDataAnalysis</Name>
+          <Version>Version 2.6 - Build 2.206.0.780</Version>
+        </AgilentApp>
+      </CreatedByApplication>
+      <CreationDate>2022-04-10T17:04:22.3028043Z</CreationDate>
+      <ClientName>WFX989096D77661</ClientName>
+      <CustomField Name="CreatedByUserDisplayName">
+        <Value>SYSTEM (SYSTEM)</Value>
+      </CustomField>
+      <CustomField Name="OriginalApplicationName">
+        <Value>IntelligentDataAnalysis</Value>
+      </CustomField>
+      <CustomField Name="InjectionMetaDataItems">
+        <Xml>
+          <ArrayOfInjectionMetaData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+            <InjectionMetaData AcqMethodName="20210902 Ar-He" DaMethodName="20210902_Ar-He2" ExpectedBarcode="" InjectionAcqDateTime="2022-04-10T17:02:10.41Z" InjectionId="5d11cc11-a7f0-4ab0-9b62-78f8121831ca" InjectorPosition="Front" InstrumentName="WL_MicroGC" LastModifiedDateTime="2022-04-10T13:04:23.0845568-04:00" BracketingType="Undefined" RawDataFileName="WL_MicroGC-2022-04-10 13-01-24-04-00-01-r496.dx" SampleDescription="" SampleName="0920220410 130124" SampleSetupId="7777e016-106e-477f-a2bc-b9adac6ab7ad" SampleType="Sample" SequenceName="SingleSample" VialNumber="1">
+              <Dil>1;1;1;1;1</Dil>
+              <LimsIds key="" />
+              <LimsIds key="" />
+              <LimsIds key="" />
+              <Locked>false</Locked>
+              <Mult>1;1;1;1;1</Mult>
+              <ReplicateNumber val="496" />
+              <SampleAmount val="0" unit="" />
+              <SampleInjectionsCount val="500" />
+              <SampleOrderNumber val="1" />
+            </InjectionMetaData>
+          </ArrayOfInjectionMetaData>
+        </Xml>
+      </CustomField>
+    </DocInfo>
+    <Content>
+      <Resources>
+        <Instrument id="3e1a9c92-cc03-46fc-975a-78c16e0be0f9" ver="0">
+          <Info>
+            <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2022-04-10T13:04:22.3048148-04:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields>
+            <CustomField Name="IsCombined">
+              <Value>False</Value>
+            </CustomField>
+          </ComplexCustomFields>
+          <Name>WL_MicroGC</Name>
+          <Technique>GasChromatography</Technique>
+          <Module id="9f0d7d90-33ff-4294-af83-23e0447f7b8e">
+            <Name>Agilent 990 Micro GC</Name>
+            <Manufacturer>Agilent</Manufacturer>
+            <Type />
+            <PartNo>990 Micro GC</PartNo>
+            <SerialNo>21209103</SerialNo>
+            <FirmwareRevision>1.0400082</FirmwareRevision>
+            <DriverVersion />
+            <ConnectionInfo />
+            <AdditionalInformation />
+            <Instance>1</Instance>
+          </Module>
+        </Instrument>
+      </Resources>
+      <Method id="4514f01c-6159-4ba5-b6c3-81215d5b3ce0" ver="0">
+        <Info>
+          <CreatedBy>
+            <Username>SYSTEM</Username>
+          </CreatedBy>
+          <CreatedDate>2021-09-02T14:51:32.7950565-04:00</CreatedDate>
+          <LastModifiedBy>
+            <Username>SYSTEM</Username>
+          </LastModifiedBy>
+          <LastModifiedDate>2021-09-02T15:39:17.4168632-04:00</LastModifiedDate>
+          <AuditTrail />
+        </Info>
+        <ComplexCustomFields />
+        <BinaryData>
+          <DataItem>
+            <Name>20210902 Ar-He.amx</Name>
+            <Data>
+              <DataFileReference>
+                <Path>C:\CDSProjects\Woolston_Lab\Methods\20210902 Ar-He.amx</Path>
+              </DataFileReference>
+            </Data>
+          </DataItem>
+        </BinaryData>
+        <Name>20210902 Ar-He</Name>
+        <Description />
+        <OriginalVersion>2021-0902-1939-17416</OriginalVersion>
+      </Method>
+      <SampleContexts>
+        <Setup id="d6d228fc-8858-4146-9cbc-4fe908e11a67" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM</Username>
+            </CreatedBy>
+            <CreatedDate>2022-04-10T13:04:22.3048148-04:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2022-04-10T13:04:24.4973461-04:00</LastModifiedDate>
+          </Info>
+          <ComplexCustomFields />
+          <IdentParam>
+            <Name>SingleSample</Name>
+            <ContextInfo>
+              <ContentType>SingleSample</ContentType>
+              <SourceType>Undefined</SourceType>
+              <ContentIntegrity>Complete</ContentIntegrity>
+            </ContextInfo>
+          </IdentParam>
+          <AcqParam>
+            <Instrument_ID id="3e1a9c92-cc03-46fc-975a-78c16e0be0f9" ver="0" />
+          </AcqParam>
+          <DAParam>
+            <BracketingMode>None</BracketingMode>
+          </DAParam>
+          <SampleSetup_ID id="7777e016-106e-477f-a2bc-b9adac6ab7ad" ver="0" />
+          <PackagingMode>Undefined</PackagingMode>
+        </Setup>
+        <MeasData id="92b9b02f-b1b3-488b-a5e9-74b195d9a475" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM</Username>
+            </CreatedBy>
+            <CreatedDate>2022-04-10T13:04:22.3048148-04:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2022-04-10T13:04:24.4973461-04:00</LastModifiedDate>
+          </Info>
+          <ComplexCustomFields />
+          <SampleSetupContext_ID id="d6d228fc-8858-4146-9cbc-4fe908e11a67" ver="0" />
+          <IdentParam>
+            <Name>SingleSample</Name>
+            <ContextInfo>
+              <ContentType>Undefined</ContentType>
+              <SourceType>Undefined</SourceType>
+              <ContentIntegrity>Undefined</ContentIntegrity>
+            </ContextInfo>
+          </IdentParam>
+          <AcqParam>
+            <Instrument_ID id="3e1a9c92-cc03-46fc-975a-78c16e0be0f9" ver="0" />
+          </AcqParam>
+          <SampleMeasData_ID id="17ffbd42-7586-49cb-9cc3-6f118a4ec803" ver="0" />
+          <DiagnosticData />
+        </MeasData>
+      </SampleContexts>
+      <Samples>
+        <Setup id="7777e016-106e-477f-a2bc-b9adac6ab7ad" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM</Username>
+            </CreatedBy>
+            <CreatedDate>2022-04-10T13:04:22.3048148-04:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2022-04-10T13:04:22.3048148-04:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields>
+            <CustomField Name="CompoundCustomFields" />
+          </ComplexCustomFields>
+          <IdentParam>
+            <Name>0920220410 130124</Name>
+            <Description />
+            <LimsID key="" />
+            <LimsID key="" />
+            <LimsID key="" />
+            <ProjectID>Woolston_Lab</ProjectID>
+            <ExpectedBarcode />
+          </IdentParam>
+          <AcqParam>
+            <OrderNo val="1" />
+            <VialNumber>1</VialNumber>
+            <NumberOfInjections val="500" />
+            <InjectionVolume val="0" unit="s" />
+            <InjectorPosition>Front</InjectorPosition>
+            <InjectionSourceInfo>None</InjectionSourceInfo>
+          </AcqParam>
+          <DAParam>
+            <Type>Sample</Type>
+            <SampleAmount val="0" unit="" />
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+          </DAParam>
+        </Setup>
+        <MeasData id="17ffbd42-7586-49cb-9cc3-6f118a4ec803" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM</Username>
+            </CreatedBy>
+            <CreatedDate>2022-04-10T13:04:22.3048148-04:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2022-04-10T13:04:22.3048148-04:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields />
+          <IdentParam>
+            <Name>0920220410 130124</Name>
+            <Description />
+            <LimsID key="" />
+            <LimsID key="" />
+            <LimsID key="" />
+            <ProjectID>Woolston_Lab</ProjectID>
+            <ExpectedBarcode />
+          </IdentParam>
+          <AcqParam>
+            <VialNumber>1</VialNumber>
+            <NumberOfInjections val="500" />
+            <InjectionVolume val="0" unit="s" />
+            <InjectorPosition>Front</InjectorPosition>
+            <InjectionSourceInfo>None</InjectionSourceInfo>
+          </AcqParam>
+          <SampleSetup_ID id="7777e016-106e-477f-a2bc-b9adac6ab7ad" ver="0" />
+          <InjectionMeasData_ID id="5d11cc11-a7f0-4ab0-9b62-78f8121831ca" ver="0" />
+          <DiagnosticData />
+        </MeasData>
+      </Samples>
+      <Injections>
+        <MeasData id="5d11cc11-a7f0-4ab0-9b62-78f8121831ca" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM</Username>
+            </CreatedBy>
+            <CreatedDate>2022-04-10T17:02:10.41Z</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2022-04-10T13:04:23.0845568-04:00</LastModifiedDate>
+          </Info>
+          <ComplexCustomFields />
+          <BinaryData>
+            <DataItem>
+              <Name>WL_MicroGC-2022-04-10 13-01-24-04-00-01-r496.dx</Name>
+              <OriginalFilePath>C:\CDSProjects\Woolston_Lab\Results\AS_contflowtesting\Test\2022-04-08 WT H2 uptake\WL_MicroGC-2022-04-10 13-01-24-04-00-01-r496.sirslt</OriginalFilePath>
+              <Data>
+                <DataFileReference>
+                  <Path>WL_MicroGC-2022-04-10 13-01-24-04-00-01-r496.dx</Path>
+                </DataFileReference>
+              </Data>
+            </DataItem>
+          </BinaryData>
+          <AcqParam>
+            <Method_ID id="4514f01c-6159-4ba5-b6c3-81215d5b3ce0" ver="0" />
+            <OrderNo val="496" />
+          </AcqParam>
+          <AcquitionStatus>
+            <Status>Completed</Status>
+            <Message>Acquisition completed for injection: 496</Message>
+          </AcquitionStatus>
+          <Signal id="627bca97-afa1-482c-8d42-456b4de5a4b6" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2022-04-10T13:04:23.0845568-04:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>WL_MicroGC-2022-04-10 13-01-24-04-00-01-r496.dx</Name>
+                <OriginalFilePath>WL_MicroGC-2022-04-10 13-01-24-04-00-01-r496.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>WL_MicroGC-2022-04-10 13-01-24-04-00-01-r496.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>Agilent 990 Micro GC1A</Name>
+            <Description>Agilent 990 Micro GC1A</Description>
+            <Type>Chromatogram</Type>
+            <YAxisScalingFactor val="1" unit="Minutes" />
+            <TraceID>712f3963-b66e-4003-8c5a-4235172cbdc9</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>Agilent</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName />
+            <PeakDeletions />
+            <InstrumentModule_ID id="9f0d7d90-33ff-4294-af83-23e0447f7b8e" />
+          </Signal>
+          <Signal id="00fcac48-ac77-466e-aeb0-eb9049246ced" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2022-04-10T13:04:23.0855569-04:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>WL_MicroGC-2022-04-10 13-01-24-04-00-01-r496.dx</Name>
+                <OriginalFilePath>WL_MicroGC-2022-04-10 13-01-24-04-00-01-r496.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>WL_MicroGC-2022-04-10 13-01-24-04-00-01-r496.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>Agilent 990 Micro GC1B</Name>
+            <Description>Agilent 990 Micro GC1B</Description>
+            <Type>Chromatogram</Type>
+            <YAxisScalingFactor val="1" unit="Minutes" />
+            <TraceID>bea01992-dd87-4689-bf6a-2e2cd7bb7dba</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>Agilent</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName />
+            <PeakDeletions />
+            <InstrumentModule_ID id="9f0d7d90-33ff-4294-af83-23e0447f7b8e" />
+          </Signal>
+          <InjectionVolume val="0" unit="s" />
+          <DiagnosticData />
+          <AcquisitionApplication>
+            <AgilentApp>
+              <Name>OpenLabCDS</Name>
+              <Version>2.6 - Build  2.6.0-REL_2.6.0.691</Version>
+            </AgilentApp>
+          </AcquisitionApplication>
+          <AcquisitionSoftware>Agilent OpenLab Acquisition Version 2.6 - Build  2.6.0-REL_2.6.0.691 </AcquisitionSoftware>
+          <AcquisitionMethodVersion>2021-0902-1939-17416</AcquisitionMethodVersion>
+          <ExternalResultPath>WL_MicroGC-2022-04-10 13-01-24-04-00-01-r496.rx</ExternalResultPath>
+        </MeasData>
+      </Injections>
+      <Actions />
+    </Content>
+  </Doc>
+</ACAML>

@@ -1,0 +1,19 @@
+Sample name:,0920220410 073841
+Operator:,SYSTEM,Data file:,WL_MicroGC-2022-04-10 07-38-41-04-00-01-r386.dx
+Instrument:,WL_MicroGC,Injection date:,2022-04-10 07:39:26-04:00
+Inj. volume:,0.000 s,Location:,1
+Acq. method:,20210902 Ar-He.amx,Type:,Sample
+Processing method:,20210902_Ar-He2.pmx,Calib Level:,
+Sample amount:,0.00
+Manually modified:,None
+Signal:,Agilent 990 Micro GC1A
+Name,RT [min],RF,Area,Amount  [],Concentration  [%],Group
+Hydrogen,0.60,0.002,909.099,527261.545,527261.545,
+Oxygen,0.68,0.679,2.513,3.698,3.698,
+Nitrogen,0.78,0.337,12.723,37.705,37.705,
+,,,Sum,527302.949,,
+Signal:,Agilent 990 Micro GC1B
+Name,RT [min],RF,Area,Amount  [],Concentration  [],Group
+Carbon Dioxide,0.35,1.429,137.193,95.975,95.975,
+,,,Sum,95.975,,
+
